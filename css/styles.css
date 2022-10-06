@@ -277,3 +277,42 @@ header {
 .btn-portfolio {
   font-size: var(--fs-h3);
 }
+/* Section Contact */
+.container-inner--contact {
+  border: 2px solid pink;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-box,
+.links-box {
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid firebrick;
+  width: 40%;
+  padding-block: 2em;
+  padding-inline: 1em;
+}
+.contact-box--content {
+  border: 2px solid skyblue;
+  max-width: 40ch;
+  padding: 1em 0.5em;
+}
+
+.contact-box--title,
+.links-box--title {
+  margin-bottom: 0.5em;
+}
+.btn--contact,
+.btn--hire-me {
+  margin-top: 0.5em;
+  font-size: var(--fs-h3);
+}
+.links-table {
+  grid-template-columns: repeat(2, 1fr);
+}
+.link-box-small {
+  flex-direction: column;
+  font-size: var(--fs-h3);
+  padding: 1em;
+}
