@@ -24,7 +24,7 @@
 
   --fs-h1: 3rem;
   --fs-h2: 2.5rem;
-  --fs-h3: 1.25rem;
+  --fs-h3: 1.5rem;
   --fs-body: 1rem;
 
   --bs: 0.5em 0.5em 0.75em rgba(0, 0, 0, 0.3),
@@ -50,7 +50,13 @@ img {
 strong {
   font-weight: var(--fw-bold);
 }
-
+/* Component Classes */
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
 /* Buttons */
 .btn {
   display: inline-block;
@@ -67,4 +73,59 @@ strong {
 .btn:hover,
 .btn:focus {
   transform: scale(1.1);
+}
+
+/* Typography */
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section__title {
+  margin-bottom: 0.25em;
+}
+.section__subtitle {
+  font-size: var(--fs-h3);
+}
+span {
+  color: var(--clr-accent-500);
+}
+
+/* Header */
+header {
+  border: 2px solid seagreen;
+  padding: 2em;
+}
+.nav {
+  width: 90vw;
+  margin: 0 auto;
+}
+.nav__list {
+  list-style-type: none;
+  border: 2px solid skyblue;
+  padding: 2em;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: auto;
+}
+.nav__list-item {
+  font-size: var(--fs-h3);
+  justify-content: space-between;
+  font-family: var(--ff-secondary);
+  padding: 0.5em;
+  text-transform: uppercase;
+  transition: transform 200ms ease-in-out;
+}
+.nav__list-item:focus,
+.nav__list-item:hover {
+  background-color: var(--clr-accent-400);
 }
