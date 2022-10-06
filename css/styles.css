@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 section {
-  padding: 2em 2em;
+  padding: 5em 2em;
 }
 .container-inner {
   margin: 0 auto;
@@ -70,7 +70,7 @@ strong {
   color: var(--clr-light);
   cursor: pointer;
   font-size: 0.9rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   transition: transform 200ms ease-in-out;
   text-decoration: none;
   border: none;
@@ -166,4 +166,43 @@ header {
   width: fit-content;
   align-self: flex-end;
   font-size: var(--fs-h3);
+}
+/* Section About */
+.container-inner--about {
+  flex-direction: row;
+  border: 2px solid hotpink;
+  justify-content: space-around;
+}
+/* todo: make a generic BOX style rule? */
+.about-box,
+.skills-box {
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid firebrick;
+  width: 40%;
+  padding-block: 2em;
+  padding-inline: 1em;
+}
+.about-box--content {
+  border: 2px solid skyblue;
+  max-width: 40ch;
+  padding: 1em 0.5em;
+}
+
+.about-box--title,
+.skills-box--title {
+  margin-bottom: 0.5em;
+}
+.btn--read-more,
+.btn--hire-me {
+  margin-top: 0.5em;
+  font-size: var(--fs-h3);
+}
+.skills-table {
+  grid-template-columns: repeat(3, 1fr);
+}
+.skills-box-small {
+  flex-direction: column;
+  font-size: var(--fs-h3);
+  padding: 1em;
 }
