@@ -316,3 +316,17 @@ header {
   font-size: var(--fs-h3);
   padding: 1em;
 }
+
+/* Footer */
+footer {
+  border: 2px solid palevioletred;
+}
+.container-inner--footer {
+  border: 2px solid seagreen;
+  flex-direction: row;
+  padding: 3em 2em;
+}
+.copyright {
+  justify-content: space-between;
+  font-size: var(--fs-h3);
+}
