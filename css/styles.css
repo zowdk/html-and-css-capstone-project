@@ -22,7 +22,7 @@
   --clr-accent-400: #94d1be;
   --clr-accent-500: #edae49;
 
-  --fs-h1: 3rem;
+  --fs-h1: 2.75rem;
   --fs-h2: 2.5rem;
   --fs-h3: 1.5rem;
   --fs-body: 1rem;
@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 section {
-  padding: 4em 2em;
+  padding: 2em 2em;
 }
 .container-inner {
   margin: 0 auto;
@@ -146,15 +146,19 @@ header {
 .hero-box__img {
   border: 2px solid salmon;
   padding: 4em;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  box-shadow: var(--bs);
 }
 .hero-box__text {
   border: 2px solid slategray;
   padding: 1em;
   text-align: left;
   flex-direction: column;
+}
+.section__title--intro {
+  max-width: 15ch;
 }
 .btn-connect {
   margin-block: 0.75em;
