@@ -16,6 +16,8 @@ Practice designing, building and styling a four-page site.
 
 ## Project Requirements
 
+<img src="./img/project-requirements.png" alt="" width="500" />
+
 - Not set up yet.
 
 ## Known Issues
