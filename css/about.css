@@ -206,8 +206,11 @@ header {
 }
 
 .about-box--title,
-.skills-box--title {
+.img-box--title {
   margin-bottom: 0.5em;
+}
+.btn--portfolio {
+  font-size: var(--fs-h3);
 }
 
 .img__about {
