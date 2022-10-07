@@ -233,7 +233,7 @@ header {
   font-size: var(--fs-h3);
 }
 .skills-table {
-  grid-template-columns: repeat(3, 175px);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .skills-box-small {
@@ -292,6 +292,7 @@ header {
   padding: 0.35em 0.75em;
   border-radius: 25px;
   margin-bottom: 0.25em;
+  align-items: center;
 }
 
 .tech-icon--name {
