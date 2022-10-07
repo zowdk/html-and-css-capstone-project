@@ -66,6 +66,9 @@ strong {
 .bg-light {
   background-color: var(--clr-light);
 }
+.active {
+  border-bottom: 3px solid var(--clr-dark);
+}
 /* Buttons */
 .btn {
   display: inline-block;
@@ -241,22 +244,30 @@ header {
   border: 2px solid blueviolet;
 }
 .section__title--work-history {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 .textbox__work-history {
   border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.textbox__work-history p {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 .timeline {
+  border: 2px solid gold;
   position: relative;
-  /* width: 500px; */
   margin: 0 auto;
 }
 .timeline::after {
   content: "";
   position: absolute;
   width: 4px;
-  background: #ffb563;
+  background: var(--clr-accent-500);
   top: 0;
   bottom: 0;
   left: 50.3%;
@@ -277,7 +288,7 @@ header {
   border-radius: 50%;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background: #9dbebb;
+  background: var(--clr-dark);
 }
 .left {
   left: 0;
@@ -288,7 +299,10 @@ header {
 .right::after {
   left: -11px;
 }
-
+.timeline-link:hover,
+.timeline-link:focus {
+  color: var(--clr-accent-200);
+}
 /* .featured-projects--content {
   border: 2px solid palevioletred;
   grid-template-columns: 1fr 1fr;
