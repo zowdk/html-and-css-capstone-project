@@ -137,7 +137,7 @@ header {
 }
 .nav__list-item:focus,
 .nav__list-item:hover {
-  background-color: var(--clr-accent-400);
+  background-color: var(--clr-accent-500);
 }
 
 /* Intro */
@@ -213,6 +213,9 @@ header {
   padding-block: 2em;
   padding-inline: 1em;
 }
+.skills-box {
+  width: 50%;
+}
 .about-box--content {
   border: 2px solid skyblue;
   max-width: 40ch;
@@ -223,18 +226,23 @@ header {
 .skills-box--title {
   margin-bottom: 0.5em;
 }
+
 .btn--read-more,
 .btn--hire-me {
   margin-top: 0.5em;
   font-size: var(--fs-h3);
 }
 .skills-table {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 175px);
 }
+
 .skills-box-small {
   flex-direction: column;
   font-size: var(--fs-h3);
-  padding: 1em;
+  padding: 0.5em;
+}
+.skill-icon {
+  font-size: var(--fs-h1);
 }
 /* Section Favorite Projects */
 .container-inner--featured-projects {
@@ -254,10 +262,14 @@ header {
   border: 2px solid goldenrod;
   padding-block: 2em;
 }
-.project-name {
+.project-header {
   font-size: var(--fs-h3);
   margin-bottom: 0.5em;
 }
+.project-subheader {
+  margin-bottom: 0.5em;
+}
+
 .project-box-img-container {
   width: 350px;
   height: 250px;
@@ -267,6 +279,7 @@ header {
 }
 .project-box-tech-stack {
   justify-content: space-around;
+  flex-wrap: wrap;
   border: 2px solid blue;
   width: 80%;
   padding-block: 0.25em;
@@ -275,11 +288,14 @@ header {
 .tech-icon {
   flex-direction: row;
   font-size: var(--fs-h3);
-  background-color: var(--clr-accent-400);
+  background-color: var(--clr-accent-500);
   padding: 0.35em 0.75em;
   border-radius: 25px;
+  margin-bottom: 0.25em;
 }
+
 .tech-icon--name {
+  font-size: var(--fs-body);
   margin-left: 0.25em;
 }
 .project-box-description {
@@ -316,7 +332,9 @@ header {
   flex-direction: row;
   justify-content: space-around;
 }
-
+.social-icon {
+  font-size: var(--fs-h2);
+}
 .contact-box,
 .links-box {
   flex-direction: column;
