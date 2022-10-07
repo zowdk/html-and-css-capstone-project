@@ -69,6 +69,7 @@ strong {
 .active {
   border-bottom: 3px solid var(--clr-dark);
 }
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -110,6 +111,10 @@ a {
   margin-bottom: 0.25em;
 }
 span {
+  color: var(--clr-accent-500);
+}
+.accent-link {
+  text-decoration: underline;
   color: var(--clr-accent-500);
 }
 
@@ -207,8 +212,9 @@ header {
   justify-content: space-around;
 }
 .about-box--content p {
-  margin-bottom: 0.5em;
-  max-width: 42ch;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  font-weight: 200;
 }
 /* todo: make a generic BOX style rule? */
 .about-box,
@@ -225,8 +231,9 @@ header {
 }
 .about-box--content {
   border: 2px solid skyblue;
-  max-width: 43ch;
+  max-width: 50ch;
   padding: 1em 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .about-box--title,
