@@ -220,6 +220,7 @@ header {
   border: 2px solid skyblue;
   max-width: 40ch;
   padding: 1em 0.5em;
+  font-weight: 200;
 }
 
 .about-box--title,
