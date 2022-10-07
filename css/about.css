@@ -217,6 +217,9 @@ header {
 }
 
 /* Tallies */
+.section__title--tallies {
+  font-size: var(--fs-h2);
+}
 
 .container-inner--tallies {
   margin-top: 2em;
@@ -227,6 +230,24 @@ header {
   flex-direction: row;
   padding: 3em 1em;
   justify-content: space-around;
+}
+.tally-box {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.tally-icon {
+  font-size: var(--fs-h2);
+  margin-bottom: 0.25em;
+}
+.tally-name {
+  font-size: var(--fs-h3);
+}
+.tally-description {
+  font-size: var(--fs-body);
+  font-weight: 200;
+}
+.tally-count {
+  font-size: var(--fs-h2);
 }
 /* Section Work History */
 .container-inner--work-history {
