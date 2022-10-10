@@ -213,6 +213,9 @@ header {
   padding-block: 2em;
   padding-inline: 1em;
 }
+.text-about {
+  font-size: var(--fs-h3);
+}
 .skills-box {
   width: 50%;
 }
@@ -352,6 +355,14 @@ header {
   padding: 1em 0.5em;
 }
 
+/* todo: apply changes to other pages */
+.text-contact {
+  font-weight: 200;
+  font-size: var(--fs-h3);
+}
+.link--hire-me {
+  color: var(--clr-accent-500);
+}
 .contact-box--title,
 .links-box--title {
   margin-bottom: 0.5em;

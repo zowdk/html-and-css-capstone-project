@@ -21,15 +21,13 @@
           <nav class="nav">
             <ul class="nav__list flex">
               <li class="nav__list-item">
-                <a href="#about" class="nav__link">About</a>
-              </li>
-              <li class="nav__list-item active">
-                <a href="./pages/projects.html" class="nav__link"
-                  >Things Made</a
-                >
+                <a href="../index.html" class="nav__link">Home</a>
               </li>
               <li class="nav__list-item">
-                <a href="./pages/hire-me.html" class="nav__link">For hire!</a>
+                <a href="../pages/about.html" class="nav__link">About</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="../pages/hire-me.html" class="nav__link">For hire!</a>
               </li>
               <li class="nav__list-item">
                 <a href="#contact" class="nav__link">Contact</a>
@@ -38,10 +36,68 @@
           </nav>
         </header>
 
-        <!-- Section About -->
+        <!-- Section Projects -->
 
-        <section class="section__about bg-light" id="about">
-          <div class="container-inner container-inner--about flex">
+        <section class="section__projects bg-light">
+          <div class="container-inner container-inner--projects flex">
+            <div class="section__title--container">
+              <h2 class="section__title">Projects</h2>
+              <p class="section__subtitle">Things made.</p>
+            </div>
+            <div class="projects__content">
+              <!-- project tile 01 -->
+              <div class="project-tile flex">
+                <div class="project-tile-header">
+                  <p class="project-header">Netflix Clone</p>
+                  <p class="project-subheader">Pair Project | In-progress</p>
+                </div>
+                <div class="project-box-img-container">
+                  <img class="project-box-img" src="#" alt="" />
+                </div>
+                <div class="project-box-tech-stack flex">
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-react"></i>
+                    <p class="tech-icon--name">React</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="tech-icon--name">JavaScript</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="tech-icon--name">CSS</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-solid fa-fire"></i>
+                    <p class="tech-icon--name">Firebase</p>
+                  </div>
+                </div>
+                <div class="project-box-description-container">
+                  <p class="project-box-description">
+                    Clones of the Netflix Home, Browse, Sign-in and Sign-up
+                    pages.
+                  </p>
+                </div>
+                <div class="project-box-btn-container flex">
+                  <a href="#" target="_blank">
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-regular fa-share-from-square"></i>
+                      </div>
+                      <p>Live Site</p>
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <p>Source</p>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
             <!-- about -->
             <div class="about-box flex">
               <div class="about-box--title flex">
