@@ -425,6 +425,13 @@ header {
   margin-top: 0.5em;
   font-size: var(--fs-h3);
 }
+.text-contact {
+  font-weight: 200;
+  font-size: var(--fs-h3);
+}
+.link__hire-me {
+  color: var(--clr-accent-500);
+}
 .links-table {
   grid-template-columns: repeat(2, 1fr);
 }
