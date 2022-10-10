@@ -181,8 +181,10 @@ header {
 }
 .about-box--content p {
   margin-bottom: 1em;
-  font-size: 1.1em;
   font-weight: 200;
+}
+.text-about {
+  font-size: 1.25em;
 }
 /* todo: make a generic BOX style rule? */
 .about-box,
@@ -195,7 +197,7 @@ header {
   padding-inline: 1em;
 }
 .about-box {
-  width: 50%;
+  width: 60%;
 }
 .about-box--content {
   border: 2px solid skyblue;
