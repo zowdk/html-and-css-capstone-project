@@ -114,7 +114,6 @@ span {
   color: var(--clr-accent-500);
 }
 .accent-link {
-  text-decoration: underline;
   color: var(--clr-accent-500);
 }
 
