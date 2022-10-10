@@ -388,6 +388,14 @@ header {
 .btn-portfolio {
   font-size: var(--fs-h3);
 }
+@media (max-width: 1210px) {
+  .featured-projects--content {
+    grid-template-columns: 1fr;
+  }
+  .project-box-img-container {
+    width: 400px;
+  }
+}
 /* Section Contact */
 .section__contact {
   padding-block: 8em;
