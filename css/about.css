@@ -201,15 +201,27 @@ header {
 }
 .about-box--content {
   border: 2px solid skyblue;
-  max-width: 50ch;
+  max-width: 57ch;
   padding: 1em 0.5em;
   margin-bottom: 0.5em;
 }
 
-.about-box--title,
-.img-box--title {
+.about-box--title {
   margin-bottom: 0.5em;
 }
+.img-box--title {
+  margin-block: 1em;
+}
+
+.textbox-list--interests {
+  flex-direction: column;
+  text-align: left;
+}
+.interest-item {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
 .btn--portfolio {
   font-size: var(--fs-h3);
 }
