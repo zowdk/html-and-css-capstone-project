@@ -474,15 +474,12 @@ footer {
   font-size: var(--fs-h3);
 }
 
-/* @media (max-width: 1035px) {
-  .hero-content,
+@media (max-width: 630px) {
   .container-inner--about,
-  .container-inner--contact {
-    flex-direction: column;
+  .container-inner--contact,
+  .container-inner--featured-projects,
+  .container-inner--footer {
+    width: 90vw;
+    margin: 0 auto;
   }
-  .featured-projects--content {
-    grid-template-columns: 1fr;
-  }
-  .hero-content {
-  }
-} */
+}
