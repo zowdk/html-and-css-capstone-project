@@ -213,12 +213,14 @@ header {
   padding-block: 2em;
   padding-inline: 1em;
 }
+/* todo: update this style rule on other pages */
 .text-about {
   font-size: var(--fs-h3);
 }
 .skills-box {
   width: 50%;
 }
+
 .about-box--content {
   border: 2px solid skyblue;
   max-width: 40ch;
@@ -360,7 +362,7 @@ header {
   font-weight: 200;
   font-size: var(--fs-h3);
 }
-.link--hire-me {
+.link__hire-me {
   color: var(--clr-accent-500);
 }
 .contact-box--title,
