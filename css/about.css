@@ -229,7 +229,7 @@ header {
 .img__about {
   border: 2px solid olive;
   width: 350px;
-  height: 360px;
+  height: auto;
 }
 
 /* Tallies */
