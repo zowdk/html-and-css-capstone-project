@@ -161,6 +161,7 @@ header {
     max-width: 75%;
   }
 }
+
 .hero-content {
   border: 2px solid slateblue;
   padding: 1em;
@@ -261,7 +262,6 @@ header {
   padding-block: 2em;
   padding-inline: 1em;
 }
-/* todo: update this style rule on other pages */
 .text-about {
   font-size: var(--fs-h3);
 }
@@ -297,6 +297,16 @@ header {
 }
 .skill-icon {
   font-size: var(--fs-h1);
+}
+@media (max-width: 1050px) {
+  .container-inner--about {
+    flex-direction: column;
+  }
+  .about-box,
+  .skills-box {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
 /* Section Favorite Projects */
 .container-inner--featured-projects {
