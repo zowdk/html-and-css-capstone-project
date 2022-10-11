@@ -21,6 +21,7 @@
   --clr-accent-300: #9db5b2;
   --clr-accent-400: #94d1be;
   --clr-accent-500: #edae49;
+  --clr-accent-600: #264653;
 
   --fs-h1: 2.75rem;
   --fs-h2: 2.5rem;
@@ -30,14 +31,6 @@
   --bs: 0.5em 0.5em 0.75em rgba(0, 0, 0, 0.3),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
-/* @media (max-width: 960px) {
-    :root {
-      --fs-h1: 2.5rem;
-      --fs-h2: 2.25rem;
-      --fs-h3: 1.25rem;
-      --fs-body: 1rem;
-    }
-  } */
 
 /* General Styles */
 
@@ -98,7 +91,8 @@ h1 {
   font-size: var(--fs-h1);
 }
 h2 {
-  font-size: var(--fs-h2);
+  font-size: var(--fs-h3);
+  font-weight: 200;
 }
 h3 {
   font-size: var(--fs-h3);
@@ -236,7 +230,7 @@ header {
 
 .diagonal-box-right {
   position: relative;
-  background-color: var(--clr-accent-400);
+  background-color: var(--clr-accent-300);
   transform: skewY(15deg);
   box-shadow: var(--bs);
 }
@@ -333,6 +327,7 @@ header {
 }
 .project-subheader {
   margin-bottom: 0.5em;
+  font-size: var(--fs-h3);
 }
 
 .project-box-img-container {
@@ -357,7 +352,6 @@ header {
   padding: 0.35em 0.75em;
   border-radius: 25px;
   margin-bottom: 0.25em;
-  align-items: center;
 }
 
 .tech-icon--name {
@@ -367,6 +361,7 @@ header {
 .project-box-description {
   max-width: 40ch;
   margin-block: 0.5em;
+  font-size: 1.25rem;
 }
 .project-box-btn-container {
   border: 2px solid orangered;
