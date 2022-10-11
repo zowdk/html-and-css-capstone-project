@@ -286,6 +286,21 @@ header {
 .tally-count {
   font-size: var(--fs-h2);
 }
+@media (max-width: 1120px) {
+  .about-box--tallies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .tally-box {
+    margin-bottom: 0.75em;
+  }
+}
+@media (max-width: 940px) {
+  .about-box--tallies {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0.75em;
+  }
+}
 /* Section Work History */
 .container-inner--work-history {
   border: 2px solid blueviolet;
