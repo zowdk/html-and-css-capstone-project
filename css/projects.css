@@ -91,8 +91,7 @@ h1 {
   font-size: var(--fs-h1);
 }
 h2 {
-  font-size: var(--fs-h3);
-  font-weight: 200;
+  font-size: var(--fs-h2);
 }
 h3 {
   font-size: var(--fs-h3);
@@ -104,6 +103,7 @@ a {
 
 .section__title {
   margin-bottom: 0.25em;
+  font-size: var(--fs-h2);
 }
 .section__subtitle {
   font-size: var(--fs-h3);
@@ -157,69 +157,9 @@ header {
   }
 }
 
-.hero-content {
-  border: 2px solid slateblue;
-  padding: 1em;
-  column-gap: 3em;
-  justify-content: space-around;
-}
-.hero-box__img {
-  border: 2px solid salmon;
-  padding: 0.5em;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: var(--bs);
-  background: var(--clr-accent-500);
-}
-.hero-box__text {
-  border: 2px solid slategray;
-  padding: 1em;
-  text-align: left;
-  flex-direction: column;
-}
-.section__title--intro {
-  width: 15ch;
-}
-.btn-connect {
-  margin-block: 0.75em;
-  margin-right: 0.5em;
-  width: fit-content;
-  align-self: flex-end;
-  font-size: var(--fs-h3);
-}
-
-@media (max-width: 1060px) {
-  .hero-content {
-    flex-direction: column;
-  }
-  .hero-box__img {
-    align-self: center;
-  }
-  .section__title--intro {
-    width: 18ch;
-    margin: 0 auto;
-    border: 2px solid red;
-  }
-  .hero-box__text {
-    justify-content: center;
-  }
-  .section__subtitle--intro {
-    align-self: end;
-    margin-right: 2em;
-  }
-}
-@media (max-width: 725px) {
-  .section__title--intro {
-    font-size: 2.25rem;
-    max-width: 100%;
-  }
-}
 .diagonal-box-left {
   position: relative;
   background: var(--clr-accent-400);
-  /* background: linear-gradient(315deg, var(--clr-light), var(--clr-accent-400)); */
-  /* background: linear-gradient(315deg, #f0027f, #75489f); */
   transform: skewY(-15deg);
   padding-block: 2em;
   box-shadow: var(--bs);
@@ -238,72 +178,11 @@ header {
   transform: skewY(-15deg);
 }
 
-/* Section About */
-.section__about {
-  padding-block: 8em;
-}
-.container-inner--about {
-  flex-direction: row;
-  border: 2px solid hotpink;
-  justify-content: space-around;
-}
-/* todo: make a generic BOX style rule? */
-.about-box,
-.skills-box {
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid firebrick;
-  width: 40%;
-  padding-block: 2em;
-  padding-inline: 1em;
-}
-.text-about {
-  font-size: var(--fs-h3);
-}
-.skills-box {
-  width: 50%;
-}
-
-.about-box--content {
-  border: 2px solid skyblue;
-  max-width: 40ch;
-  padding: 1em 0.5em;
-  font-weight: 200;
-}
-
-.about-box--title,
-.skills-box--title {
-  margin-bottom: 0.5em;
-}
-
-.btn--read-more,
-.btn--hire-me {
-  margin-top: 0.5em;
-  font-size: var(--fs-h3);
-}
-.skills-table {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.skills-box-small {
-  flex-direction: column;
-  font-size: var(--fs-h3);
-  padding: 0.5em;
-}
-.skill-icon {
-  font-size: var(--fs-h1);
-}
-@media (max-width: 1050px) {
-  .container-inner--about {
-    flex-direction: column;
-  }
-  .about-box,
-  .skills-box {
-    margin: 0 auto;
-    width: 90%;
-  }
-}
 /* Section Favorite Projects */
+.section__subheader--intro {
+  font-weight: 200;
+  font-size: var(--fs-h3);
+}
 .container-inner--featured-projects {
   border: 2px solid blueviolet;
 }
