@@ -118,6 +118,9 @@ a {
 span {
   color: var(--clr-accent-200);
 }
+.text-about span {
+  color: var(--clr-accent-500);
+}
 
 /* Header */
 header {
@@ -263,16 +266,24 @@ header {
   padding-block: 2em;
   padding-inline: 1em;
 }
+.about-box {
+  width: 65%;
+}
 .text-about {
   font-size: var(--fs-h3);
+  margin-bottom: 0.25em;
 }
-.skills-box {
-  width: 50%;
+.text-about-small {
+  font-size: 1.25rem;
+  margin-bottom: 0.25em;
+}
+.about-box-list {
+  text-align: left;
 }
 
 .about-box--content {
   border: 2px solid skyblue;
-  max-width: 40ch;
+  max-width: 52ch;
   padding: 1em 0.5em;
   font-weight: 200;
 }
