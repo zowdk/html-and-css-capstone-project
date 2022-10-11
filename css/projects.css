@@ -68,6 +68,9 @@ strong {
 .bg-light {
   background-color: var(--clr-light);
 }
+.active {
+  border-bottom: 3px solid var(--clr-dark);
+}
 /* Buttons */
 .btn {
   display: inline-block;
@@ -350,7 +353,6 @@ footer {
 }
 
 @media (max-width: 630px) {
-  .container-inner--about,
   .container-inner--contact,
   .container-inner--featured-projects,
   .container-inner--footer {
