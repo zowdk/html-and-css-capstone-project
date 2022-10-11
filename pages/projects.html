@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>💻 About Page</title>
-    <link rel="stylesheet" href="../css/about.css" />
+    <title>💻 Projects Page</title>
+    <link rel="stylesheet" href="../css/projects.css" />
 
     <!-- font awesome icons go here -->
     <script
@@ -21,10 +21,10 @@
           <nav class="nav">
             <ul class="nav__list flex">
               <li class="nav__list-item">
-                <a href="../index.html" class="nav__link">Home</a>
+                <a href="./about.html" class="nav__link">About</a>
               </li>
               <li class="nav__list-item">
-                <a href="../pages/projects.html" class="nav__link">Projects</a>
+                <a href="./pages/projects.html" class="nav__link">Projects</a>
               </li>
               <li class="nav__list-item">
                 <a href="./pages/hire-me.html" class="nav__link">Hiring?</a>
@@ -35,198 +35,322 @@
             </ul>
           </nav>
         </header>
-
-        <!-- Section About -->
-
-        <section class="section__about bg-light" id="about">
-          <div class="container-inner container-inner--about flex">
-            <!-- about -->
-            <div class="about-box flex">
-              <div class="about-box--title flex">
-                <h2>What I Do</h2>
-              </div>
-              <div class="about-box--content">
-                <div class="textbox">
-                  <p class="text-about">
-                    In the past, I dreamed of writing for film and television,
-                    but several internships proved it wasn't for me.
-                  </p>
-                  <p class="text-about">
-                    I left a wonderful job in manufacturing when I moved to
-                    Denmark in 2020.
-                  </p>
-                  <p class="text-about">
-                    I started coding in December 2020 as part of
-                    <a class="link__about accent-link" href=""
-                      >Hack Your Future</a
-                    >. I didn't get in to their program, but was intrigued by
-                    the learning challenges presented by web dev.
-                  </p>
-                  <p class="text-about">
-                    Finally! A craft that harnesses my creativity and logic to
-                    find faster, simpler, or funnier ways to solve problems I
-                    find interesting or important.
-                  </p>
-
-                  <p class="text-about">
-                    Currently, I'm learnig <span>JavaScript</span>,
-                    <span>UX</span>, <span>React</span>, and Danish.
-                  </p>
-
-                  <p class="text-about">
-                    I live in lovely Copenhagen with my family and our bicycles.
-                  </p>
-
-                  <a class="accent-link strong" href="../hire-me.html">
-                    <p>
-                      I'm looking for my first full-time Junior Developer role.
-                    </p>
-                  </a>
-                </div>
-              </div>
-              <a href="../pages/projects.html">
-                <button class="btn btn--portfolio">see portfolio</button>
-              </a>
-            </div>
-            <!-- Photo -->
-            <div class="img-box flex">
-              <div class="img-box--content">
-                <img
-                  class="img__about"
-                  src="../img/misc/devzoe-about.jpg"
-                  alt="a photo of Zoe looking scary"
-                />
-              </div>
-              <!-- Interests -->
-              <div class="img-box--title">
-                <h2>Interests</h2>
-              </div>
-              <div class="textbox">
-                <ul class="textbox-list textbox-list--interests flex">
-                  <li class="interest-item">collaborative learning</li>
-                  <li class="interest-item">product development</li>
-                  <li class="interest-item">design thinking</li>
-                  <li class="interest-item">cybersecurity</li>
-                </ul>
-              </div>
-              <!-- Hobbies -->
-              <div class="img-box--title">
-                <h2>Hobbies</h2>
-              </div>
-              <div class="textbox">
-                <ul class="textbox-list textbox-list--interests flex">
-                  <li class="interest-item">foreign languages</li>
-                  <li class="interest-item">music composition</li>
-                  <li class="interest-item">cycling</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- tallies -->
-          <div class="container-inner container-inner--tallies">
-            <h3 class="section__title section__title--tallies">
-              2022 in numbers
-            </h3>
-
-            <div class="about-box--tallies flex">
-              <div class="tally-box flex">
-                <i class="fa-solid fa-comments tally-icon"></i>
-                <p class="tally-name">dansk (Studieprøven)</p>
-                <p class="tally-description">hours practicing Danish</p>
-                <p class="tally-count">362</p>
-              </div>
-              <div class="tally-box flex">
-                <i class="fa-solid fa-laptop tally-icon"></i>
-                <p class="tally-name">coding</p>
-                <p class="tally-description">total hours</p>
-                <p class="tally-count">506</p>
-              </div>
-              <div class="tally-box flex">
-                <i class="fa-solid fa-bicycle tally-icon"></i>
-                <p class="tally-name">på cykel</p>
-                <p class="tally-description">total km</p>
-                <p class="tally-count">905</p>
-              </div>
-              <div class="tally-box flex">
-                <i class="fa-solid fa-mug-hot tally-icon"></i>
-                <p class="tally-name">kaffe</p>
-                <p class="tally-description">cups enjoyed</p>
-                <p class="tally-count">326</p>
-              </div>
-              <div class="tally-box flex">
-                <i class="fa-regular fa-circle-check tally-icon"></i>
-                <p class="tally-name">projects</p>
-                <p class="tally-description">things built</p>
-                <p class="tally-count">21</p>
-              </div>
-              <div class="tally-box flex">
-                <i class="fa-solid fa-book tally-icon"></i>
-                <p class="tally-name">books</p>
-                <p class="tally-description">read</p>
-                <p class="tally-count">14</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- currently reading -->
+        <!-- Section Intro -->
+        <section class="section__intro container-inner container-innner--intro">
+          <h1 class="section__header section__header--intro">Projects</h1>
+          <h2 class="section__subheader section__subheader--intro">
+            Things made.
+          </h2>
         </section>
       </div>
     </div>
-    <!-- Section Work History Projects -->
+
+    <!-- Section About -->
+
+    <!-- <section class="section__about bg-light" id="about">
+      <div class="container-inner container-inner--about flex"> -->
+    <!-- about -->
+    <!-- <div class="about-box flex">
+          <div class="about-box--title flex">
+            <h2>TL;DR About</h2>
+          </div>
+          <div class="about-box--content">
+            <div class="textbox">
+              <p class="text-about">
+                I'm a Denmark based, self-taught developer, hungry to learn and
+                build products for the modern web.
+              </p>
+              <a class="link__hire-me accent-link" href="./pages/hire-me.html"
+                ><p>I'm also looking for full-time developer roles.</p></a
+              >
+            </div>
+          </div>
+          <a href="./pages/about.html">
+            <button class="btn btn--read-more">read more</button>
+          </a>
+        </div> -->
+    <!-- skills -->
+    <!-- <div class="skills-box flex">
+          <div class="skills-box--title">
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-box--content">
+            <div class="skills-table grid">
+              <div class="skills-box-small flex">
+                <i class="fa-brands fa-html5 skill-icon"></i>
+                <h3 class="skill-name">HTML</h3>
+              </div>
+              <div class="skills-box-small flex">
+                <i class="fa-brands fa-css3-alt skill-icon"></i>
+                <h3 class="skill-name">CSS</h3>
+              </div>
+              <div class="skills-box-small flex">
+                <i class="fa-brands fa-square-js skill-icon"></i>
+                <h3 class="skill-name">JavaScript</h3>
+              </div>
+              <div class="skills-box-small flex">
+                <i class="fab fa-react skill-icon"></i>
+                <h3 class="skill-name">React</h3>
+              </div>
+              <div class="skills-box-small flex">
+                <i class="fas fa-mobile-alt skill-icon"></i>
+                <h3 class="skill-name">Responsive Design</h3>
+              </div> -->
+    <!-- <div class="skills-box-small flex">
+                <i class="fas fa-universal-access skill-icon"></i>
+                <h3 class="skill-name">Accessibility</h3>
+              </div> -->
+    <!-- </div> -->
+    <!-- <a href="./pages/hire-me.html">
+              <button class="btn btn--hire-me">things I'm good at</button>
+            </a> -->
+    <!-- </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Section Favorite Projects -->
     <div class="diagonal-box-right">
       <div class="diagonal-box-right--content">
-        <section class="about__work-history">
-          <div class="container-inner container-inner--work-history">
-            <h2 class="section__title--work-history">Work history</h2>
-            <div class="textbox textbox__work-history">
-              <p>
-                In the past, I have held a range of customer-facing and
-                operational roles within a manufacturing company. I enjoyed
-                wearing many hats and teaming with others in sales, production
-                and engineering to ship on-time and keep customers happy.
-              </p>
-
-              <p>
-                Recently my focus has been learning the fundamentals of web +
-                frontend development and Danish.
-              </p>
-              <p>
-                Here is a brief history of my recent employment. More details
-                can be found on <strong> <a href="#">LinkedIn</a> </strong> .
-              </p>
+        <section id="projects" class="featured-projects">
+          <div class="container-inner container-inner--featured-projects">
+            <div class="featured-projects--title">
+              <h2 class="section__title">Projects</h2>
             </div>
 
-            <div class="work-history--timeline-box flex">
-              <div class="timeline">
-                <div class="timeline-content left">
-                  <div class="text-wrapper">
-                    <h4>Jan 2017 - Mar 2020</h4>
-                    <p>Inventory Coordinator / New Business Development</p>
+            <div class="featured-projects--content grid">
+              <!-- project 1 -->
+              <div class="project-box flex">
+                <div class="project-box-header">
+                  <p class="project-header">Netflix Clone</p>
+                  <p class="project-subheader">Pair Project | In-progress</p>
+                </div>
+                <!-- <div class="project-box-img-container"> -->
+                <img
+                  class="project-box-img-container project-box-img"
+                  src="./img/projects/netflix-home.png"
+                  alt="Netflix home page"
+                />
+                <img
+                  class="project-box-img-container project-box-img"
+                  src="./img/projects/netflix-sign-in.png"
+                  alt="Netflix home page"
+                />
+                <!-- </div> -->
+                <div class="project-box-tech-stack flex">
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-react"></i>
+                    <p class="tech-icon--name">React</p>
                   </div>
-                  <div class="text-wrapper right">
-                    <div class="timeline-content">
-                      <h4>Mar 2013 - Dec 2016</h4>
-                      <p>Customer Service Specialist / Purchasing Agent</p>
-                    </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="tech-icon--name">JavaScript</p>
                   </div>
-                  <div class="text-wrapper left">
-                    <div class="timeline-content">
-                      <h4>Jan 2013 - Dec 2014</h4>
-                      <p>Administrative Assistant</p>
-                    </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="tech-icon--name">CSS</p>
                   </div>
-                  <div class="text-wrapper right">
-                    <div class="timeline-content">
-                      <p>
-                        <a
-                          class="timeline-link"
-                          href="https://www.linkedin.com/in/zoemolivier/"
-                          >view more...</a
-                        >
-                      </p>
-                    </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-solid fa-fire"></i>
+                    <p class="tech-icon--name">Firebase</p>
                   </div>
+                </div>
+                <div class="project-box-description-container">
+                  <p class="project-box-description">
+                    Clones of the Netflix Home, Browse, Sign-in and Sign-up
+                    pages.
+                  </p>
+                </div>
+                <div class="project-box-btn-container flex">
+                  <a href="#" target="_blank">
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-regular fa-share-from-square"></i>
+                      </div>
+                      <p>Live Site</p>
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <p>Source</p>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <!-- project 2 -->
+              <div class="project-box flex">
+                <div class="project-box-header">
+                  <p class="project-header">My Life in Weeks</p>
+                  <p class="project-subheader">Solo project | 1 day</p>
+                </div>
+                <!-- <div class="project-box-img-container"> -->
+                <img
+                  class="project-box-img-container project-box-img"
+                  src="./img/projects/my-life-in-weeks.png"
+                  alt=""
+                />
+                <!-- </div> -->
+                <div class="project-box-tech-stack flex">
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="tech-icon--name">JavaScript</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="tech-icon--name">CSS</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="tech-icon--name">HTML</p>
+                  </div>
+                </div>
+                <div class="project-box-description-container">
+                  <p class="project-box-description">
+                    Some fun with CSS grid and JavaScript date math. Each square
+                    represents one week in a 100-year lifespan, while darkened
+                    squareds are weeks already lived.
+                  </p>
+                </div>
+                <div class="project-box-btn-container flex">
+                  <a
+                    href="https://zowdk.github.io/my-life-in-weeks/"
+                    target="_blank"
+                  >
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-regular fa-share-from-square"></i>
+                      </div>
+                      <p>Live Site</p>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/zowdk/my-life-in-weeks"
+                    target="_blank"
+                  >
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <p>Source</p>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <!-- project 3 -->
+              <div class="project-box flex">
+                <div class="project-box-header">
+                  <p class="project-header">(Unofficial) On-call</p>
+                  <p class="project-subheader">Solo project | 1 week</p>
+                </div>
+                <!-- <div class="project-box-img-container"> -->
+                <img
+                  class="project-box-img-container project-box-img"
+                  src="./img/projects/on-call.png"
+                  alt=""
+                />
+                <!-- </div> -->
+                <div class="project-box-tech-stack flex">
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="tech-icon--name">HTML</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="tech-icon--name">CSS</p>
+                  </div>
+                </div>
+                <div class="project-box-description-container">
+                  <p class="project-box-description">
+                    An unofficial product landing page for Volvo's "on-call"
+                    app. Created for freeCodeCamp's challenge "Build a Product
+                    Landing Page".
+                  </p>
+                </div>
+                <div class="project-box-btn-container flex">
+                  <a
+                    href="https://zowdk.github.io/responsive-web-design/product-landing-pages/on-call/"
+                    target="_blank"
+                  >
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-regular fa-share-from-square"></i>
+                      </div>
+                      <p>Live Site</p>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/zowdk/responsive-web-design/tree/main/product-landing-pages/on-call"
+                    target="_blank"
+                  >
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <p>Source</p>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <!-- project 4 -->
+              <div class="project-box flex">
+                <div class="project-box-header">
+                  <p class="project-header">Snake Clone</p>
+                  <p class="project-subheader">Solo project | 1 week</p>
+                </div>
+                <!-- <div class="project-box-img-container"> -->
+                <img
+                  class="project-box-img-container project-box-img"
+                  src="./img/projects/snake-game.png"
+                  alt=""
+                />
+                <!-- </div> -->
+                <div class="project-box-tech-stack flex">
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="tech-icon--name">JavaScript</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="tech-icon--name">CSS</p>
+                  </div>
+                  <div class="tech-icon flex">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="tech-icon--name">HTML</p>
+                  </div>
+                </div>
+                <div class="project-box-description-container">
+                  <p class="project-box-description">
+                    A single-player browser game. Players control a snake-like
+                    avatar using arrow keys: Collect as many points as possible
+                    without hitting the walls, or oneself.
+                  </p>
+                </div>
+                <div class="project-box-btn-container flex">
+                  <a href="http://zow.dk/snake-game.html" target="_blank">
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-regular fa-share-from-square"></i>
+                      </div>
+                      <p>Live Site</p>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/zowdk/zow.dk/blob/master/snake-game.html"
+                    target="_blank"
+                  >
+                    <button class="btn project-btn">
+                      <div class="btn-icon">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                      <p>Source</p>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -266,7 +390,7 @@
             </div>
           </div>
           <a href="#">
-            <button class="btn btn--contact">Request a copy of my CV</button>
+            <button class="btn btn--contact">request a copy of my CV</button>
           </a>
         </div>
         <!-- Links -->
