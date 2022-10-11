@@ -408,6 +408,53 @@ header {
     width: 400px;
   }
 }
+/* timelime */
+.timeline {
+  border: 2px solid gold;
+  position: relative;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background: var(--clr-accent-500);
+  top: 0;
+  bottom: 0;
+  left: 50.3%;
+  margin-left: -3px;
+}
+.text-wrapper {
+  padding: 1.75em 0.25em;
+  position: relative;
+  width: 51%;
+}
+.text-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -9px;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: var(--clr-dark);
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.right::after {
+  left: -11px;
+}
+.timeline-link:hover,
+.timeline-link:focus {
+  color: var(--clr-accent-200);
+}
+
 /* Section Contact */
 .section__contact {
   padding-block: 8em;
