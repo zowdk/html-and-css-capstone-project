@@ -115,7 +115,10 @@ a {
 span {
   color: var(--clr-accent-500);
 }
-
+.accent-icon {
+  color: var(--clr-dark);
+  font-size: 3rem;
+}
 /* Header */
 header {
   border: 2px solid seagreen;

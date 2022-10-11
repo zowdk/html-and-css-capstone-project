@@ -116,6 +116,14 @@ span {
 .text-about span {
   color: var(--clr-accent-500);
 }
+.accent-icon-container {
+  align-self: center;
+  margin-bottom: 8em;
+}
+.accent-icon {
+  color: var(--clr-dark);
+  font-size: 17rem;
+}
 
 /* Header */
 header {
