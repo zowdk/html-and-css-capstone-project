@@ -314,6 +314,9 @@ header {
   .container-inner--about {
     flex-direction: column;
   }
+  .container-inner--work-history {
+    flex-direction: column-reverse;
+  }
   .about-box,
   .skills-box {
     margin: 0 auto;
