@@ -184,6 +184,9 @@ header {
   text-align: left;
   flex-direction: column;
 }
+.hero-box__text span {
+  color: var(--clr-accent-200);
+}
 .section__title--intro {
   width: 15ch;
 }
