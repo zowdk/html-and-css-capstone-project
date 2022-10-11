@@ -324,6 +324,16 @@ header {
   .skills-box {
     margin: 0 auto;
     width: 90%;
+    order: 2;
+  }
+  .accent-icon {
+    font-size: 10rem;
+    margin-bottom: 0;
+    order: 1;
+  }
+  .accent-icon-container {
+    border: 2px red solid;
+    margin: 0.5em;
   }
 }
 /* Section Favorite Projects */
