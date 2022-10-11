@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>💻 Projects Page</title>
+    <title>💻 About Page</title>
     <link rel="stylesheet" href="../css/about.css" />
 
     <!-- font awesome icons go here -->
@@ -24,10 +24,10 @@
                 <a href="../index.html" class="nav__link">Home</a>
               </li>
               <li class="nav__list-item">
-                <a href="../pages/about.html" class="nav__link">About</a>
+                <a href="../pages/projects.html" class="nav__link">Projects</a>
               </li>
               <li class="nav__list-item">
-                <a href="../pages/hire-me.html" class="nav__link">For hire!</a>
+                <a href="./pages/hire-me.html" class="nav__link">Hiring?</a>
               </li>
               <li class="nav__list-item">
                 <a href="#contact" class="nav__link">Contact</a>
@@ -36,68 +36,10 @@
           </nav>
         </header>
 
-        <!-- Section Projects -->
+        <!-- Section About -->
 
-        <section class="section__projects bg-light">
-          <div class="container-inner container-inner--projects flex">
-            <div class="section__title--container">
-              <h2 class="section__title">Projects</h2>
-              <p class="section__subtitle">Things made.</p>
-            </div>
-            <div class="projects__content">
-              <!-- project tile 01 -->
-              <div class="project-tile flex">
-                <div class="project-tile-header">
-                  <p class="project-header">Netflix Clone</p>
-                  <p class="project-subheader">Pair Project | In-progress</p>
-                </div>
-                <div class="project-box-img-container">
-                  <img class="project-box-img" src="#" alt="" />
-                </div>
-                <div class="project-box-tech-stack flex">
-                  <div class="tech-icon flex">
-                    <i class="fa-brands fa-react"></i>
-                    <p class="tech-icon--name">React</p>
-                  </div>
-                  <div class="tech-icon flex">
-                    <i class="fa-brands fa-square-js"></i>
-                    <p class="tech-icon--name">JavaScript</p>
-                  </div>
-                  <div class="tech-icon flex">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <p class="tech-icon--name">CSS</p>
-                  </div>
-                  <div class="tech-icon flex">
-                    <i class="fa-solid fa-fire"></i>
-                    <p class="tech-icon--name">Firebase</p>
-                  </div>
-                </div>
-                <div class="project-box-description-container">
-                  <p class="project-box-description">
-                    Clones of the Netflix Home, Browse, Sign-in and Sign-up
-                    pages.
-                  </p>
-                </div>
-                <div class="project-box-btn-container flex">
-                  <a href="#" target="_blank">
-                    <button class="btn project-btn">
-                      <div class="btn-icon">
-                        <i class="fa-regular fa-share-from-square"></i>
-                      </div>
-                      <p>Live Site</p>
-                    </button>
-                  </a>
-                  <a href="#" target="_blank">
-                    <button class="btn project-btn">
-                      <div class="btn-icon">
-                        <i class="fa-brands fa-github"></i>
-                      </div>
-                      <p>Source</p>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+        <section class="section__about bg-light" id="about">
+          <div class="container-inner container-inner--about flex">
             <!-- about -->
             <div class="about-box flex">
               <div class="about-box--title flex">
@@ -105,22 +47,33 @@
               </div>
               <div class="about-box--content">
                 <div class="textbox">
-                  <p>
-                    I'm a self-taught Junior Developer ;-) I started coding in
-                    December 2020 after moving to Denmark.
+                  <p class="text-about">
+                    In the past, I dreamed of writing for film and television,
+                    but several internships proved it wasn't for me.
                   </p>
-                  <p>
-                    I enjoy the visual and creative aspects of Frontend and am
-                    motivated to learn software development so I can find
-                    faster, simpler, or funnier ways to solve problems I find
-                    interesting or important.
+                  <p class="text-about">
+                    I left a wonderful job in manufacturing when I moved to
+                    Denmark in 2020.
                   </p>
-                  <p>
-                    Currently, I'm learnig <span>JavaScript</span> ,
-                    <span>UX</span> , <span>React</span> , and Danish.
+                  <p class="text-about">
+                    I started coding in December 2020 as part of
+                    <a class="link__about accent-link" href=""
+                      >Hack Your Future</a
+                    >. I didn't get in to their program, but was intrigued by
+                    the learning challenges presented by web dev.
+                  </p>
+                  <p class="text-about">
+                    Finally! A craft that harnesses my creativity and logic to
+                    find faster, simpler, or funnier ways to solve problems I
+                    find interesting or important.
                   </p>
 
-                  <p>
+                  <p class="text-about">
+                    Currently, I'm learnig <span>JavaScript</span>,
+                    <span>UX</span>, <span>React</span>, and Danish.
+                  </p>
+
+                  <p class="text-about">
                     I live in lovely Copenhagen with my family and our bicycles.
                   </p>
 
@@ -135,17 +88,37 @@
                 <button class="btn btn--portfolio">see portfolio</button>
               </a>
             </div>
-            <!-- skills -->
+            <!-- Photo -->
             <div class="img-box flex">
-              <div class="img-box--title">
-                <h2>Skills</h2>
-              </div>
               <div class="img-box--content">
                 <img
                   class="img__about"
-                  src="#"
+                  src="../img/misc/devzoe-about.jpg"
                   alt="a photo of Zoe looking scary"
                 />
+              </div>
+              <!-- Interests -->
+              <div class="img-box--title">
+                <h2>Interests</h2>
+              </div>
+              <div class="textbox">
+                <ul class="textbox-list textbox-list--interests flex">
+                  <li class="interest-item">collaborative learning</li>
+                  <li class="interest-item">product development</li>
+                  <li class="interest-item">design thinking</li>
+                  <li class="interest-item">cybersecurity</li>
+                </ul>
+              </div>
+              <!-- Hobbies -->
+              <div class="img-box--title">
+                <h2>Hobbies</h2>
+              </div>
+              <div class="textbox">
+                <ul class="textbox-list textbox-list--interests flex">
+                  <li class="interest-item">foreign languages</li>
+                  <li class="interest-item">music composition</li>
+                  <li class="interest-item">cycling</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -216,8 +189,7 @@
 
               <p>
                 Recently my focus has been learning the fundamentals of web +
-                frontend development, while also attending language schools to
-                learn Danish.
+                frontend development and Danish.
               </p>
               <p>
                 Here is a brief history of my recent employment. More details
@@ -280,14 +252,21 @@
           </div>
           <div class="contact-box--content">
             <div class="textbox">
-              <p>
-                croissant marshmallow carrot cake gingerbread jujubes jelly
-                beans brownie. Brownie apple pie pie muffin cotton candy toffee.
+              <p class="text-contact">
+                Let's connect! I'm open to feedback, collaboration, and am
+                also<a class="link__hire-me" href="./pages/hire-me.html">
+                  looking for full-time roles.</a
+                >
+
+                <a href="https://www.linkedin.com/in/zoemolivier/"
+                  ><strong>Linkedin</strong></a
+                >
+                is the best way to get in touch :-)
               </p>
             </div>
           </div>
           <a href="#">
-            <button class="btn btn--contact">email.address@provider.com</button>
+            <button class="btn btn--contact">Request a copy of my CV</button>
           </a>
         </div>
         <!-- Links -->
@@ -322,11 +301,11 @@
                 </div>
               </a>
             </div>
-            <a href="./pages/hire-me.html">
+            <!-- <a href="./pages/hire-me.html">
               <button class="btn btn--hire-me">
                 think we could work together?
               </button>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

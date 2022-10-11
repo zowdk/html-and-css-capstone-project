@@ -146,9 +146,17 @@ header {
 .nav__list-item:hover {
   background-color: var(--clr-accent-500);
 }
-@media (min-width: 1220px) {
+@media (min-width: 600px) {
+  .nav__list {
+    width: 85%;
+  }
   .nav__list-item {
-    font-size: 1rem;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1000px) {
+  .nav__list {
+    max-width: 70%;
   }
 }
 .diagonal-box-left {
@@ -235,7 +243,16 @@ header {
   width: 350px;
   height: auto;
 }
-
+@media (max-width: 1120px) {
+  .container-inner--about {
+    flex-direction: column;
+  }
+  .about-box,
+  .img-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 /* Tallies */
 .section__title--tallies {
   font-size: var(--fs-h2);
@@ -424,6 +441,19 @@ header {
   font-size: var(--fs-h3);
   padding: 1em;
 }
+@media (max-width: 1240px) {
+  .container-inner--contact {
+    flex-direction: column;
+  }
+  .contact-box,
+  .links-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-box--content {
+    max-width: 52ch;
+  }
+}
 
 /* Footer */
 footer {
@@ -439,4 +469,9 @@ footer {
 .copyright {
   justify-content: space-between;
   font-size: var(--fs-h3);
+}
+@media (max-width: 660px) {
+  .container-inner {
+    width: 90vw;
+  }
 }
