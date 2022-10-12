@@ -118,7 +118,6 @@ span {
 
 /* Header */
 header {
-  border: 2px solid seagreen;
   padding: 1em;
 }
 .nav {
@@ -127,7 +126,6 @@ header {
 }
 .nav__list {
   list-style-type: none;
-  border: 2px solid skyblue;
   padding: 0.5em;
   justify-content: space-between;
   width: 90%;
@@ -161,13 +159,11 @@ header {
 }
 
 .hero-content {
-  border: 2px solid slateblue;
   padding: 1em;
   column-gap: 3em;
   justify-content: space-around;
 }
 .hero-box__img {
-  border: 2px solid salmon;
   padding: 0.5em;
   width: 300px;
   height: 300px;
@@ -176,7 +172,6 @@ header {
   background: var(--clr-accent-500);
 }
 .hero-box__text {
-  border: 2px solid slategray;
   padding: 1em;
   text-align: left;
   flex-direction: column;
@@ -205,7 +200,6 @@ header {
   .section__title--intro {
     width: 18ch;
     margin: 0 auto;
-    border: 2px solid red;
   }
   .hero-box__text {
     justify-content: center;
@@ -224,8 +218,6 @@ header {
 .diagonal-box-left {
   position: relative;
   background: var(--clr-accent-400);
-  /* background: linear-gradient(315deg, var(--clr-light), var(--clr-accent-400)); */
-  /* background: linear-gradient(315deg, #f0027f, #75489f); */
   transform: skewY(-15deg);
   padding-block: 2em;
   box-shadow: var(--bs);
@@ -250,7 +242,6 @@ header {
 }
 .container-inner--about {
   flex-direction: row;
-  border: 2px solid hotpink;
   justify-content: space-around;
 }
 /* todo: make a generic BOX style rule? */
@@ -258,7 +249,6 @@ header {
 .skills-box {
   flex-direction: column;
   align-items: center;
-  border: 2px solid firebrick;
   width: 40%;
   padding-block: 2em;
   padding-inline: 1em;
@@ -271,7 +261,6 @@ header {
 }
 
 .about-box--content {
-  border: 2px solid skyblue;
   max-width: 40ch;
   padding: 1em 0.5em;
   font-weight: 200;
@@ -310,21 +299,16 @@ header {
   }
 }
 /* Section Favorite Projects */
-.container-inner--featured-projects {
-  border: 2px solid blueviolet;
-}
 .featured-projects--title {
   margin-bottom: 2em;
 }
 .featured-projects--content {
-  border: 2px solid palevioletred;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
 }
 .project-box {
   flex-direction: column;
   align-items: center;
-  border: 2px solid goldenrod;
   padding-block: 2em;
 }
 .project-header {
@@ -338,14 +322,12 @@ header {
 .project-box-img-container {
   width: 350px;
   height: auto;
-  border: 2px solid green;
   border-radius: 20px;
   margin-bottom: 0.5em;
 }
 .project-box-tech-stack {
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 2px solid blue;
   width: 80%;
   padding-block: 0.25em;
   margin-bottom: 0.5em;
@@ -369,7 +351,6 @@ header {
   margin-block: 0.5em;
 }
 .project-box-btn-container {
-  border: 2px solid orangered;
   width: 80%;
   justify-content: space-around;
 }
@@ -402,7 +383,6 @@ header {
   padding-block: 8em;
 }
 .container-inner--contact {
-  border: 2px solid pink;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -413,18 +393,15 @@ header {
 .links-box {
   flex-direction: column;
   align-items: center;
-  border: 2px solid firebrick;
   width: 40%;
   padding-block: 2em;
   padding-inline: 1em;
 }
 .contact-box--content {
-  border: 2px solid skyblue;
   max-width: 40ch;
   padding: 1em 0.5em;
 }
 
-/* todo: apply changes to other pages */
 .text-contact {
   font-weight: 200;
   font-size: var(--fs-h3);
@@ -461,12 +438,10 @@ header {
 }
 /* Footer */
 footer {
-  border: 2px solid palevioletred;
   background: var(--clr-dark);
   color: var(--clr-accent-300);
 }
 .container-inner--footer {
-  border: 2px solid seagreen;
   flex-direction: row;
   padding: 3em 2em;
 }
