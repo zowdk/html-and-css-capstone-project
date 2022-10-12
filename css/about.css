@@ -183,7 +183,7 @@ header {
 /* Section About */
 .section__about {
   padding-block: 8em;
-  background: var(--clr-accent-200);
+  /* background: var(--clr-accent-200); */
 }
 
 .container-inner--about {
