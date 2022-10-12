@@ -4,7 +4,9 @@
 
 ## Live Site Demo
 
-- Not set up yet.
+<img src="./img/projects/portfolio-site.png" alt="thumbnail for Zoe's portfolio site" width="600" />
+
+[Live Site](https://zowdk.github.io/html-and-css-capstone-project/)
 
 ## Objective
 
