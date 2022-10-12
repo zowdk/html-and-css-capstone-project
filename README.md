@@ -16,7 +16,7 @@
 
 ### CV Request Form
 
-    - This assignment became a chance to redesign my portfolio site. I wanted to set up a way for potential employers and collaborators to be able to request my CV. So I added a [Typeform](https://www.typeform.com/) to help with handling the requests. 
+   - This assignment became a chance to redesign my portfolio site. I wanted to set up a way for potential employers and collaborators to be able to request my CV. So I added a [Typeform](https://www.typeform.com/) to help with handling the requests. 
     
 
 ## Project Requirements
