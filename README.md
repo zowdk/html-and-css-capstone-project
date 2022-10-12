@@ -4,27 +4,35 @@
 
 ## Live Site Demo
 
-<img src="./img/projects/portfolio-site.png" alt="thumbnail for Zoe's portfolio site" width="600" />
+  <img src="./img/projects/portfolio-site.png" alt="thumbnail for Zoe's portfolio site" width="600" />
 
-[Live Site](https://zowdk.github.io/html-and-css-capstone-project/)
+  [Live Site](https://zowdk.github.io/html-and-css-capstone-project/)
 
 ## Objective
 
-Practice designing, building and styling a four-page site.
+  Practice designing, building and styling a four-page site.
 
 ## Implementation Highlights
 
-- Not set up yet.
+### CV Request Form
+
+    - This assignment became a chance to redesign my portfolio site. I wanted to set up a way for potential employers and collaborators to be able to request my CV. So I added a [Typeform](https://www.typeform.com/) to help with handling the requests. 
+    
 
 ## Project Requirements
 
-<img src="./img/project-requirements.png" alt="" width="500" />
+  <img src="./img/project-requirements.png" alt="" width="500" />
 
-- Not set up yet.
 
 ## Known Issues
 
--Not set up yet.
+### Typeform limitations
+
+- The free version of Typeform only allows 10 requests per month. 
+
+### DRYer Code
+
+- There are 4 CSS documents averaging ~450 lines each. It might be a good idea to simplify the code with utility classes, or to remove unnecessary lines.
 
 ## Acknowledgements
 
