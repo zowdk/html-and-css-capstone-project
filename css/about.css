@@ -163,7 +163,7 @@ header {
   position: relative;
   background: var(--clr-accent-400);
   transform: skewY(-15deg);
-  padding-block: 2em;
+  padding-block: 4em;
   box-shadow: var(--bs);
 }
 .diagonal-box-left--content {
@@ -183,7 +183,6 @@ header {
 /* Section About */
 .section__about {
   padding-block: 8em;
-  /* background: var(--clr-accent-200); */
 }
 
 .container-inner--about {

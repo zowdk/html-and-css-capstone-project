@@ -219,7 +219,7 @@ header {
   position: relative;
   background: var(--clr-accent-400);
   transform: skewY(-15deg);
-  padding-block: 2em;
+  padding-block: 4em;
   box-shadow: var(--bs);
 }
 .diagonal-box-left--content {
