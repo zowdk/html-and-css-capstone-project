@@ -115,7 +115,8 @@ a {
 span {
   color: var(--clr-accent-200);
 }
-.text-about span {
+.text-about span,
+.copyright-text span {
   color: var(--clr-accent-500);
 }
 .accent-icon-container {
