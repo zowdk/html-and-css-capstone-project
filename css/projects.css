@@ -107,7 +107,7 @@ a {
 }
 
 .section__title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-size: var(--fs-h2);
 }
 .section__subtitle {
