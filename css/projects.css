@@ -176,6 +176,8 @@ header {
   background-color: var(--clr-accent-300);
   transform: skewY(15deg);
   box-shadow: var(--bs);
+  padding-bottom: 7em;
+  padding-top: 2em;
 }
 .diagonal-box-right--content {
   transform: skewY(-15deg);
@@ -197,6 +199,9 @@ header {
   flex-direction: column;
   align-items: center;
   padding-block: 2em;
+  background-color: var(--clr-dark);
+  color: var(--clr-accent-400);
+  border-radius: 20px;
 }
 .project-header {
   font-size: var(--fs-h3);
@@ -224,6 +229,7 @@ header {
   flex-direction: row;
   font-size: var(--fs-h3);
   background-color: var(--clr-accent-500);
+  color: var(--clr-dark);
   padding: 0.35em 0.75em;
   border-radius: 25px;
   margin-bottom: 0.25em;
@@ -243,9 +249,9 @@ header {
   justify-content: space-around;
 }
 .project-btn {
-  background-color: inherit;
-  color: var(--clr-dark);
-  border: 2.5px solid var(--clr-dark);
+  background-color: var(--clr-dark);
+  color: var(--clr-accent-200);
+  border: 2.5px solid var(--clr-accent-200);
   border-radius: 15px;
   font-weight: var(--fw-bold);
 }
