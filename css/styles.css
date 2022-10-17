@@ -59,7 +59,7 @@ img {
 strong {
   font-weight: var(--fw-bold);
 }
-/* Component Classes */
+/* Utility Classes */
 .flex {
   display: flex;
 }
